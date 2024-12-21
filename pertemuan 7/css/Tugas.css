@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main{
+  display: flex;
+  flex: 1;
+}
+#main > article{
+  flex: 1;
+  order: 1;
+}
+#main > nav,
+#main > aside{
+  flex: 0 0 35vh;
+}
+#main > aside{
+  background-color: #03DAC5;
+  order: 1;
+  height: 570px;
+}
+#main > nav{
+  background-color: pink;
+  order: 1;
+  height: 678px;
+}
+header{
+  background-color: khaki;
+  height: 100px;
+  margin-left: 237px;
+}
+footer{
+ background-color: khaki;
+ height: 100px;
+ margin-left: 237px;
+  margin-top: -200px;
+}
+header, footer, article, nav, aside{
+  padding: 1em;
+}
+nav{
+  margin-top: -100px;
+}

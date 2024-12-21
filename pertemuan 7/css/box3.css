@@ -1,0 +1,39 @@
+.Box {
+  margin: 20px;
+}
+.Box .box1 {
+  border: 1px solid black;
+  background-color: green;
+  height: 200px;
+  margin: 10px;
+}
+.Box .box2 {
+  border: 1px solid black;
+  background-color: yellow;
+  height: 200px;
+  width: 170px;
+  margin: 10px;
+}
+.Box .box3 {
+  border: 1px solid black;
+  background-color: orangered;
+  margin-left: 195px;
+  margin-top: -210px;
+  height: 200px;
+  width: 1178px;
+}
+.Box .box4 {
+  border: 1px solid black;
+  background-color: yellow;
+  height: 200px;
+  width: 170px;
+  margin: 10px;
+}
+.Box .box5 {
+  border: 1px solid black;
+  background-color: blue;
+  margin-left: 195px;
+  margin-top: -210px;
+  height: 200px;
+  width: 1178px;
+}

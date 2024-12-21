@@ -1,0 +1,47 @@
+.Box {
+  margin: 20px;
+}
+.Box .box1 {
+  border: 1px solid black;
+  background-color: yellow;
+  width: 170px;
+  height: 80px;
+  margin: 10px;
+}
+.Box .box2 {
+  border: 1px solid black;
+  background-color: orangered;
+  margin-left: 195px;
+  margin-top: -92px;
+  height: 80px;
+  width: 1018px;
+}
+.Box .box3 {
+  border: 1px solid black;
+  background-color: green;
+  height: 470px;
+  width: 170px;
+  margin: 10px;
+}
+.Box .box4 {
+  border: 1px solid black;
+  background-color: gray;
+  margin-left: 195px;
+  margin-top: -480px;
+  height: 470px;
+  width: 847px;
+}
+.Box .box5 {
+  border: 1px solid black;
+  background-color: aqua;
+  margin-left: 1060px;
+  margin-top: -472px;
+  height: 470px;
+  width: 152px;
+}
+.Box .box6 {
+  border: 1px solid black;
+  background-color: blue;
+  margin: 10px;
+  height: 80px;
+  width: 1200px;

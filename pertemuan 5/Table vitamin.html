@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Table vitamin</title>
+      <style>
+        .table{
+            background-color: rgb(152, 128, 66);
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            min-height: 60vh;
+            margin: 0px;
+            li.E{
+                font-family: cursive;
+                font-weight: bold;
+            }
+            .Ve{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: left;
+            }
+            .aa{
+                font-weight: bold;
+            }
+        }
+        .zigzag-container{
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .zigzag-item{
+            flex: 1;
+            padding: 15px;
+            color: #fff;
+            text-align: left;
+            box-sizing: border-box;
+        }
+        .zigzag-item:nth-child(odd) {
+            transform: translateY(-100px);
+        }
+        .zigzag-item:nth-child(even) {
+            transform: translateY(100px);
+        }
+        .pricing-table {
+            width: 50%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        .pricing-table th {
+            background-color: blue;
+            color: white;
+            padding: 15px;
+            font-size: 18px;
+        }
+        .pricing-table td {
+            padding: 25px;
+            text-align: left;
+            border: 1px solid blue;
+            font-size: 16px;
+        }
+        .price {
+            font-size: 22px;
+            color: black;
+        }
+        .number{
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: left;
+        }
+    </style>
+  </head>
+  <body>
+       <h3>Berikut khasiat buah Alpukat</h3>
+       <div class="zigzag-container">
+                <ol class="table">
+                    <div class="zigzag-item">
+                    <li class="a">Vitamin E</li> 
+                    <p class="b">Memiliki <span class="c"><i>anti aging</i></span> yang bisa <br> mendorong perawatan kulit alami</p>
+                    </div>
+                    <div class="zigzag-item">
+           <li class="a">Vitamin K</li>
+           <p class="b">Membantu <span class="c"><i>mencegah</i></span> <br>terjadinya osteoporosis</p>
+           </div>
+           <div class="zigzag-item">
+           <li class="a">Vitamin B5</li> <p class="b">Membantu <span class="c"><i>menurunkan</i></span> tingkat<br> stress, meringankan rasa sakit</p>
+           </div>
+           <div class="zigzag-item">
+          <li class="a">Vitamin B6</li> <p class="b">Membantu <span class="c"><i>treat diabetes</i></span>,<br>pendarahan menstruasi,insomnia</p>
+          </div>
+  </div>
+      </ol>
+      
+    </div>
+    <div>
+        <table class="pricing-table">
+            <thead>
+                <tr>
+                    <th>Nomor</th>
+                    <th>Jenis Alpukat</th>
+                    <th>Harga 1Kg</th>
+                    <th>Harga 2Kg</th>
+                    <th>Harga 3kg</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background-color: rgb(187, 222, 251);">
+                    <td class="number">1</td>
+                    <td>Alpukat Mentega</td>
+                    <td class="price">Rp35.000,-</td>
+                    <td class="price">Rp.65.000,-</td>
+                    <td class="price">Rp90.000,-</td>
+                </tr>
+                <tr class="highlight">
+                    <td class="number">2</td>
+                    <td>Alpukat miki</td>
+                    <td class="price">Rp50.000,-</td>
+                    <td class="price">Rp90.000,-</td>
+                    <td class="price">Rp135.000,-</td>
+                </tr>
+                <tr style="background-color: rgb(187, 222, 251);">
+                    <td class="number">3</td>
+                    <td>Alpukat Aligator</td>
+                    <td class="price">Rp30.000,-</td>
+                    <td class="price">Rp55.000,-</td>
+                    <td class="price">Rp80.000,-</td>
+                </tr>
+                <tr>
+                    <td class="number">4</td>
+                    <td>Alpukat Kendil</td>
+                    <td class="price">Rp40.000,-</td>
+                    <td class="price">Rp75.000,-</td>
+                    <td class="price">Rp100.000,-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+  </body>
+</html>
